@@ -6,10 +6,11 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-    //create a method to hold the home page
+    //create a method to hold the each page
+    //specify what view that page should contain
     public function home()
     {
-      return view ('Welcome to the Third Wave Coffee Hub');
+      return view ('welcome');
     }
 
     public function about()
