@@ -25,7 +25,7 @@
             }
 
             .flex-center {
-                align-items: center;
+                align-items: flex-start;
                 display: flex;
                 justify-content: center;
             }
@@ -80,8 +80,8 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Welcome to the Third Wave Coffee Hub
+                <div class="title s-b-md">
+                    Third Wave Coffee
                 </div>
 
                 <div class="links">
