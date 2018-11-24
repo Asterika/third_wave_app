@@ -25,9 +25,12 @@ class ShopsController extends Controller
       return view('shops.create');
     }
 
-    public function show()
+    public function show($id)
     {
-      return view('shops.show');
+      $shop = Shop::findOrFail($id);
+
+      return view('shops.show', compact('shop'));
+      // return redirect()->action('ShopsController@index');
     }
 
     public function edit($id)
