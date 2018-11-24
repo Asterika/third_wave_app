@@ -60,9 +60,12 @@ class ShopsController extends Controller
       // dd(request()->all());
     }
 
-    public function destroy()
+    public function destroy($id)
     {
-      return view('shops.destroy');
+      Shop::find($id)->delete();
+      // dd('delete ' . $id);
+      // return view('shops.destroy');
+      return redirect('/shops');
     }
 
     //create a method to store new shop data

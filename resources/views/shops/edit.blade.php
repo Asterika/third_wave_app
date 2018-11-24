@@ -3,7 +3,7 @@
 @section('content')
   <h1 class="title">Edit Shop Profile</h1>
 
-  <form method="POST" action="/shops/{{ $shop->id }}">
+  <form method="POST" action="/shops/{{ $shop->id }}" style="margin-bottom: 1em;">
 
     {{ method_field('PATCH') }}
     {{ csrf_field() }}
@@ -80,6 +80,24 @@
         <div class="control">
 
           <button type="submit" class="button is-link">Update Shop Profile</button>
+
+        </div>
+
+      </div>
+
+  </form>
+
+  <form method="POST" action="/shops/{{ $shop->id }}">
+
+    {{ method_field('DELETE') }}
+
+    {{ csrf_field() }}
+
+      <div class="field">
+
+        <div class="control">
+
+          <button type="submit" class="button">Delete Shop Profile</button>
 
         </div>
 
