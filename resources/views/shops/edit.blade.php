@@ -107,4 +107,19 @@
 
   </form>
 
+  <form method="POST" action="/shops">
+    @method('GET')
+    @csrf
+      <div class="field">
+
+        <div class="control">
+
+          <button type="submit" class="button">Return to Shops Gallery</button>
+
+        </div>
+
+      </div>
+
+  </form>
+
 @endsection

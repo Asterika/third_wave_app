@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>Shops</h1>
+@extends('layout')
+
+@section('content')
+
+    <h1 class="title">Shop Profile</h1>
     <!-- get each shop by id and display its profile -->
     <ul>
-      <li><a href="/shops/{shop}">{{ $shop->name_location }}</a></li>
+      <li>{{ $shop->name_location }}</li>
       <li>Location: {{ $shop->address1 }}</li>
       <li>Hours: {{ $shop->hours1 }}</li>
       <li>Phone: {{ $shop->phone1 }}</li><br ><br >
@@ -34,5 +31,4 @@
 
     </form>
 
-  </body>
-</html>
+@endsection

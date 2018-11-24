@@ -1,16 +1,20 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h1>Shops</h1>
-    <!-- loop through the shops and display each title as a list item -->
+@extends('layout')
+
+@section('content')
+
+    <h1 class="title">Shops</h1>
+
+
+    <!-- loop through the shops and display each name and location as a list item -->
+  <ul>
     @foreach ($shops as $shop)
-      <a href="/shops/{{$shop->id}}">
-        <li>{{ $shop->name_location }}</li>
-      </a>
+    <li>
+      <a href="/shops/{{$shop->id}}">{{ $shop->name_location }}</a>
+      <a href="/shops/{{$shop->id}}/edit"><img src="/images/edit_pencil.png" style="height:12px; width:12px;"></a>
+      <a href="/shops/{{$shop->id}}/delete"><img src="/images/recycle-bin.png" style="height:12px; width:12px;"></a>
+
+    </li>
     @endforeach
-  </body>
-</html>
+  </ul>
+
+@endsection
