@@ -16,10 +16,14 @@ class CreateShopsTable extends Migration
         Schema::create('shops', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->string('shop_name');
-            $table->string('address');
-            $table->string('hours');
-            $table->string('roaster(s)');
+            $table->string('name_location');
+            $table->string('address1');
+            $table->string('hours1');
+            $table->string('phone1');
+            $table->string('address2');
+            $table->string('hours2');
+            $table->string('phone2');
+            $table->string('website');
             $table->string('favorite_drink');
         });
     }

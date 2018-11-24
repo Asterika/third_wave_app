@@ -12,12 +12,15 @@
 */
 
 //create routes for each "page" within a PagesController
+// have post request direct create route to store shops info
 Route::get('/', 'PagesController@home');
 Route::get('/about', 'PagesController@about');
 Route::get('/lingo', 'PagesController@lingo');
 Route::get('/brew', 'PagesController@brew');
 Route::get('/locate', 'PagesController@locate');
-Route::get('/shops', 'PagesController@shops');
+Route::get('/shops', 'ShopsController@index');
+Route::post('/shops', 'ShopsController@store');
+Route::get('/shops/create', 'ShopsController@create');
 
 //later, create these controllers:
 //UsersController

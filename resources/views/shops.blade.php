@@ -2,10 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>@yield('title')</title>
+    <title></title>
   </head>
   <body>
-    @yield('content')
+    <h1>Shops</h1>
 
     <ul>
     <li><a href="/">Home</a></li>
