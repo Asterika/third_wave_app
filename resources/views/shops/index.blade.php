@@ -8,7 +8,7 @@
     <h1>Shops</h1>
     <!-- loop through the shops and display each title as a list item -->
     @foreach ($shops as $shop)
-      <a href="/shops/9">
+      <a href="/shops/{{$shop->id}}">
         <li>{{ $shop->name_location }}</li>
       </a>
     @endforeach
