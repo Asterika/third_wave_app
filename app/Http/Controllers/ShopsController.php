@@ -38,9 +38,26 @@ class ShopsController extends Controller
       return view('shops.edit', compact('shop'));
     }
 
-    public function update()
+    public function update($id)
     {
-      return view('shops.patch');
+      $shop = Shop::find($id);
+
+      $shop->name_location = request('name_location');
+      $shop->address1 = request('address1');
+      $shop->hours1 = request('hours1');
+      $shop->phone1 = request('phone1');
+      $shop->address2 = request('address2');
+      $shop->hours2 = request('hours2');
+      $shop->phone2 = request('phone2');
+      $shop->website = request('website');
+      $shop->favorite_drink = request('favorite_drink');
+
+      $shop->save();
+
+      return redirect('/shops');
+
+      // return view('shops.patch');
+      // dd(request()->all());
     }
 
     public function destroy()
