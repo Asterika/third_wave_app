@@ -19,8 +19,8 @@
       <li>Favorite Drink: {{ $shop->favorite_drink }}</li>
     </ul>
 
-    <!-- <form method="POST" action="/shops/{{ $shop->id }}">
-      @method('HOME')
+    <form method="POST" action="/shops">
+      @method('GET')
       @csrf
         <div class="field">
 
@@ -32,7 +32,7 @@
 
         </div>
 
-    </form> -->
+    </form>
 
   </body>
 </html>
