@@ -30,7 +30,6 @@ class ShopsController extends Controller
       $shop = Shop::findOrFail($id);
 
       return view('shops.show', compact('shop'));
-      // return redirect()->action('ShopsController@index');
     }
 
     public function edit($id)
