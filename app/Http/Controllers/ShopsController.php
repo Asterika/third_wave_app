@@ -33,14 +33,14 @@ class ShopsController extends Controller
     public function edit($id)
     {
 
-      $shop = Shop::find($id);
+      $shop = Shop::findOrFail($id);
 
       return view('shops.edit', compact('shop'));
     }
 
     public function update($id)
     {
-      $shop = Shop::find($id);
+      $shop = Shop::findOrFail($id);
 
       $shop->name_location = request('name_location');
       $shop->address1 = request('address1');
@@ -62,7 +62,7 @@ class ShopsController extends Controller
 
     public function destroy($id)
     {
-      Shop::find($id)->delete();
+      Shop::findOrFail($id)->delete();
       // dd('delete ' . $id);
       // return view('shops.destroy');
       return redirect('/shops');

@@ -4,9 +4,10 @@
   <h1 class="title">Edit Shop Profile</h1>
 
   <form method="POST" action="/shops/{{ $shop->id }}" style="margin-bottom: 1em;">
-
-    {{ method_field('PATCH') }}
-    {{ csrf_field() }}
+    @method('PATCH')
+    @csrf
+    <!-- {{ method_field('PATCH') }}
+    {{ csrf_field() }} -->
 
     <div class="field">
 
@@ -88,10 +89,11 @@
   </form>
 
   <form method="POST" action="/shops/{{ $shop->id }}">
+    @method('DELETE')
+    @csrf
+    <!-- {{ method_field('DELETE') }}
 
-    {{ method_field('DELETE') }}
-
-    {{ csrf_field() }}
+    {{ csrf_field() }} -->
 
       <div class="field">
 
