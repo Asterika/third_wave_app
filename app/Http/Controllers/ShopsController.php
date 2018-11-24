@@ -25,6 +25,29 @@ class ShopsController extends Controller
       return view('shops.create');
     }
 
+    public function show()
+    {
+      return view('shops.show');
+    }
+
+    public function edit($id)
+    {
+
+      $shop = Shop::find($id);
+
+      return view('shops.edit', compact('shop'));
+    }
+
+    public function update()
+    {
+      return view('shops.patch');
+    }
+
+    public function destroy()
+    {
+      return view('shops.destroy');
+    }
+
     //create a method to store new shop data
     //request all fields be returned from input form
     public function store()
