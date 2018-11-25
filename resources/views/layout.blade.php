@@ -74,7 +74,7 @@
           text-transform: uppercase;
       }
       a:hover {
-        color: #4286f4; 
+        color: #4286f4;
       }
 
       .m-b-md {
@@ -84,11 +84,11 @@
 
   <body>
 
-    <div class="content">
+    <!-- <div class="content">
       <div class="links">
         <a href="/sign-up">Sign Up</a>
         <a href="/login">Login</a>
-      </div>
+      </div> -->
 
       <hr >
       <div class="links" style="margin-bottom:-3.4%;">

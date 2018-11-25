@@ -39,3 +39,7 @@ Route::get('/brew', 'PagesController@brew');
 Route::get('/locate', 'PagesController@locate');
 
 Route::resource('shops', 'ShopsController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
