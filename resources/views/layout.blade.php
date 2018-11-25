@@ -14,8 +14,10 @@
   <style>
       html, body {
           background-color: #fff;
-          color: #636b6f;
-          font-family: 'Nunito', sans-serif;
+          /* color: #636b6f; */
+          color: #586064;
+          /* font-family: 'Nunito', sans-serif; */
+          font-family: 'Inconsolata', monospace;
           font-weight: 200;
           height: 100vh;
           margin: 0;
