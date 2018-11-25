@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <!-- Styles -->
   <style>
@@ -67,13 +68,13 @@
       }
       .title-small {
           font-size: 1.6rem;
+          font-style: Courier;
           font-weight: bold;
       }
 
       .links > a {
           color: #636b6f;
-          /* justify-content: space-evenly; */
-          padding: 0 25px;
+          padding: 0 3%;
           font-size: 13px;
           font-weight: 600;
           letter-spacing: .1rem;

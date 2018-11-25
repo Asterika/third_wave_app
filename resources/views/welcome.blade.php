@@ -30,6 +30,15 @@
                 justify-content: center;
             }
 
+            hr {
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 0.65em 0;
+            padding: 0;
+            }
+
             .position-ref {
                 position: relative;
             }
@@ -57,12 +66,16 @@
 
             .links > a {
                 color: #636b6f;
-                padding: 0 25px;
+                padding: 0 5%;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+            }
+
+            a:hover {
+              color: #4286f4;
             }
 
             .m-b-md {
@@ -95,7 +108,7 @@
                     <a href="{{ route('login') }}">Login</a>
 
                     @if (Route::has('register'))
-                      <a href="{{ route('register')}}">Sign Up</a>
+                      <a href="{{ route('register')}}">Register</a>
                     @endif
                   @endauth
                 </div>

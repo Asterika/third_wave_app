@@ -73,11 +73,11 @@
                 <input type="text" name="favorite_drink" placeholder="{{ $shop->favorite_drink }}" value="{{ $shop->favorite_drink }}">
               </div>
 
-            </div>
+            </div><br >
 
                 <div class="field">
 
-                  <div class="control">
+                  <div>
 
                     <button type="submit" class="button is-link">Update Shop Profile</button>
 
@@ -99,7 +99,7 @@
 
       <div class="field">
 
-        <div class="control">
+        <div>
 
           <button type="submit" class="button">Delete Shop Profile</button>
 
@@ -114,7 +114,7 @@
     @csrf
       <div class="field">
 
-        <div class="control">
+        <div>
 
           <button type="submit" class="button">Return to Shops Gallery</button>
 
