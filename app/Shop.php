@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Third_Wave_Coffee;
 
 use Illuminate\Database\Eloquent\Model;
 

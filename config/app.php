@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Third Wave Coffee'),
 
     /*
     |--------------------------------------------------------------------------
@@ -167,11 +167,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Third_Wave_Coffee\Providers\AppServiceProvider::class,
+        Third_Wave_Coffee\Providers\AuthServiceProvider::class,
+        // Third_Wave_Coffee\Providers\BroadcastServiceProvider::class,
+        Third_Wave_Coffee\Providers\EventServiceProvider::class,
+        Third_Wave_Coffee\Providers\RouteServiceProvider::class,
 
     ],
 

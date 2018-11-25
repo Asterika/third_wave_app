@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Third_Wave_Coffee\Http\Controllers;
 
 use Illuminate\Http\Request;
 

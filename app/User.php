@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Third_Wave_Coffee;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;

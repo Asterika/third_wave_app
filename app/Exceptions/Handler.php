@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exceptions;
+namespace Third_Wave_Coffee\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

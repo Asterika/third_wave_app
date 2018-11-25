@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Third_Wave_Coffee\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

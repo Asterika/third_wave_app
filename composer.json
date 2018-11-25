@@ -24,7 +24,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "Third_Wave_Coffee\\": "app/"
         }
     },
     "autoload-dev": {

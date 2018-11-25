@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Third_Wave_Coffee\Http\Controllers;
 
 //define global namespace root and import project class so class can be referenced later on without including root
-use App\Shop;
+use Third_Wave_Coffee\Shop;
 
 // use Illuminate\Http\Request;
 

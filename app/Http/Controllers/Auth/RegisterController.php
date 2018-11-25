@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Third_Wave_Coffee\Http\Controllers\Auth;
 
-use App\User;
-use App\Http\Controllers\Controller;
+use Third_Wave_Coffee\User;
+use Third_Wave_Coffee\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -59,7 +59,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \App\User
+     * @return \Third_Wave_Coffee\User
      */
     protected function create(array $data)
     {

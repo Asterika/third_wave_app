@@ -42,4 +42,6 @@ Route::resource('shops', 'ShopsController');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/shops/{shop}/edit', 'HomeController@index')->name('/shops/{shop}/edit')->middleware('auth');
+
+// Route::get('/register', 'HomeController@index')->name('home')->middleware('guest');
