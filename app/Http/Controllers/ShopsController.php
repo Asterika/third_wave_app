@@ -14,8 +14,6 @@ class ShopsController extends Controller
 
       $shops = Shop::all();
 
-      // return $shops;
-
       return view('shops.index', compact('shops'));
     }
 
@@ -25,24 +23,25 @@ class ShopsController extends Controller
       return view('shops.create');
     }
 
-    public function show($id)
+    //use route model binding instead of findOrFail
+    public function show(Shop $shop)
     {
-      $shop = Shop::findOrFail($id);
+      // $shop = Shop::findOrFail($id);
 
       return view('shops.show', compact('shop'));
     }
 
-    public function edit($id)
+    public function edit(Shop $shop)
     {
 
-      $shop = Shop::findOrFail($id);
+      // $shop = Shop::findOrFail($id);
 
       return view('shops.edit', compact('shop'));
     }
 
-    public function update($id)
+    public function update(Shop $shop)
     {
-      $shop = Shop::findOrFail($id);
+      // $shop = Shop::findOrFail($id);
 
       $shop->name_location = request('name_location');
       $shop->address1 = request('address1');
@@ -62,9 +61,9 @@ class ShopsController extends Controller
       // dd(request()->all());
     }
 
-    public function destroy($id)
+    public function destroy(Shop $shop)
     {
-      Shop::findOrFail($id)->delete();
+      $shop->delete();
       // dd('delete ' . $id);
       // return view('shops.destroy');
       return redirect('/shops');
@@ -74,6 +73,12 @@ class ShopsController extends Controller
     //request all fields be returned from input form
     public function store()
     {
+      request()->validate([
+        'name_location' => 'required',
+        'address1' => 'required',
+        'hours1' => 'required',
+        'phone1' => ['required', 'min:10', 'max:18']
+      ]);
 
       $shop = new Shop();
 

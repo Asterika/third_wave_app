@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Third Wave</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -43,9 +43,16 @@
             .content {
                 text-align: center;
             }
+/*
+            #rotate-text {
+              transform: rotate(5deg);
+            } */
 
             .title {
-                font-size: 84px;
+                font-size: 60px;
+            }
+            .title-small {
+                font-size: 45px;
             }
 
             .links > a {
@@ -64,7 +71,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <!-- <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -77,21 +84,28 @@
                         @endif
                     @endauth
                 </div>
-            @endif
+            @endif -->
 
             <div class="content">
-                <div class="title s-b-md">
-                    Third Wave Coffee
-                </div>
+              <div class="links">
+                <a href="/sign-up">Sign Up</a>
+                <a href="/login">Login</a>
+              </div>
+                <div class="title">
+                    Third Wave <div class="title-small" style="display:inline; text-align: center;">Coffee</div>
+                </div><hr >
 
-                <div class="links">
+                <div class="links" style="margin-top:2.5%; margin-bottom:-1.5%;">
                     <a href="/about">What is Third Wave?</a>
                     <a href="/lingo">Lingo</a>
                     <a href="/brew">Brew</a>
                     <a href="/locate">Locate</a>
                     <a href="/shops">Shops</a>
+                </div><br ><hr >
+
+                <div>
+                  <img class="img-responsive" alt="Barista Pouring Lattes" src="/images/pouring_lattes.jpg" style="width:100%; height:250px; object-fit:cover; opacity:0.8; margin-top:-1.2%;">
                 </div>
             </div>
-        </div>
     </body>
 </html>

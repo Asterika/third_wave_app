@@ -38,27 +38,4 @@ Route::get('/lingo', 'PagesController@lingo');
 Route::get('/brew', 'PagesController@brew');
 Route::get('/locate', 'PagesController@locate');
 
-//Routes
-// Route::get('/shops', 'ShopsController@index');
-// Route::post('/shops', 'ShopsController@store');
-// Route::get('/shops/create', 'ShopsController@create');
-
-
 Route::resource('shops', 'ShopsController');
-// //show an individual coffee shop profile:
-// Route::get('/shops/{shop}', 'ShopsController@show');
-// //edit a single shop by id
-// Route::get('/shops/{shop}/edit', 'ShopsController@edit');
-// //update a single shop by id
-// Route::patch('/shops/{shop}', 'ShopsController@update');
-// //delete a single shop by id
-// Route::delete('/shops/{shop}', 'ShopsController@destroy');
-//later, create these controllers:
-//UsersController
-//ShopsController?
-
-
-//above is shortened form of this route expression:
-// Route::get('/', function () {
-//     return view('welcome');
-// });

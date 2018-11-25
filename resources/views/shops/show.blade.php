@@ -4,7 +4,7 @@
 
     <h1 class="title">Shop Profile</h1>
     <!-- get each shop by id and display its profile -->
-    <ul>
+    <ul style="list-style-type:none;">
       <li>{{ $shop->name_location }}</li>
       <li>Location: {{ $shop->address1 }}</li>
       <li>Hours: {{ $shop->hours1 }}</li>

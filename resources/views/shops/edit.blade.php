@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('content')
+
   <h1 class="title">Edit Shop Profile</h1>
 
   <form method="POST" action="/shops/{{ $shop->id }}" style="margin-bottom: 1em;">
