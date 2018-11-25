@@ -90,6 +90,10 @@ form  */
   width: 60%;
 }
 
+input[type="submit"]:active {
+    color: #4286f4;
+}
+
 br {
   line-height: 1.5em;
 }
