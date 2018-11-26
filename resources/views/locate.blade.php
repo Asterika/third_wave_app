@@ -8,7 +8,7 @@
 
   <div class="main">
     <div class="form-container">
-      <img src="/images/coffee_shop_sign.jpg" class="sidebar" alt="Processing coffee beans">
+      <img src="/images/coffee_shop_sign.jpg" class="sidebar" alt="Coffee Shop Sign | Photo by Nathan Dumlao on Unsplash">
 
   </div>
 

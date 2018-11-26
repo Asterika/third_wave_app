@@ -4,11 +4,13 @@
 
   <h1 class="title-small">Edit Shop Profile</h1><br >
 
+  <div 
+
   <!-- <div class='container' align='center'> -->
 
   <div class="main">
     <div class="form-container">
-      <img src="/images/coffee_pot_and_beans.jpg" class="sidebar">
+      <img src="/images/coffee_pot_and_beans.jpg" class="sidebar" alt="Silver Coffee Pot with Coffee Beans | Photo by Alexandra Gorn on Unsplash">
           <form method="POST" action="/shops/{{ $shop->id }}" class="form-box" style="margin-bottom: 1em;">
             @method('PATCH')
             @csrf
@@ -71,9 +73,7 @@
 
               <div class="control" style="display:inline;">
                 <input type="text" name="favorite_drink" placeholder="{{ $shop->favorite_drink }}" value="{{ $shop->favorite_drink }}">
-              </div>
-
-            </div><br >
+              </div><br ><br >
 
                 <div class="field">
 
@@ -86,18 +86,37 @@
                 </div>
 
             </form>
+
+            <form method="POST" action="/shops">
+              @method('GET')
+              @csrf
+                <div class="field">
+
+                  <div>
+
+                    <button type="submit" class="button">Return to Shops Gallery</button>
+
+                  </div>
+
+                </div>
+
+            </form>
+
+          </div>
+
         </div>
       </div>
+@endsection
   <!-- </div> -->
 
-  <form method="POST" action="/shops/{{ $shop->id }}">
+  <!-- <form method="POST" action="/shops/{{ $shop->id }}">
     @method('DELETE')
-    @csrf
+    @csrf -->
     <!-- {{ method_field('DELETE') }}
 
     {{ csrf_field() }} -->
 
-      <div class="field">
+      <!-- <div class="field">
 
         <div>
 
@@ -107,8 +126,8 @@
 
       </div>
 
-  </form>
-
+  </form> -->
+<!--
   <form method="POST" action="/shops">
     @method('GET')
     @csrf
@@ -122,6 +141,4 @@
 
       </div>
 
-  </form>
-
-@endsection
+  </form> -->

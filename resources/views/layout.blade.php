@@ -8,8 +8,11 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+    <!-- Optimize for various screen sizes -->
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
     <meta name="viewport" content="initial-scale=1">
-    
+
   </head>
   <!-- Styles -->
   <style>

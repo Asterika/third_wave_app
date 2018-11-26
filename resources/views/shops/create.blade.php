@@ -6,7 +6,7 @@
 
     <div class="main">
       <div class="form-container">
-        <img src="/images/coffee_brewing_tower.jpg" class="sidebar">
+        <img src="/images/coffee_brewing_tower.jpg" class="sidebar" alt="Drip Coffee Brewing Tower | Photo by Nathan Dumlao on Unsplash">
             <form method="POST" action="/shops" class="form-box" style="margin-bottom: 1em;">
               {{ csrf_field() }}
 
@@ -24,7 +24,7 @@
               </div><br ><br >
 
               <div>
-                <button type="submit">Add Shop</button>
+                <button type="submit" class="button is-link">Add Shop</button>
               </div>
 
             @if ($errors->any())

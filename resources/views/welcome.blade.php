@@ -129,9 +129,9 @@
                 </div><br ><hr >
 
                 <div>
-                  <img class="img-responsive" alt="Barista Pouring Lattes" src="/images/pouring_lattes.jpg" style="width:100%; height:250px; object-fit:cover; opacity:0.8; margin-top:-1.2%;">
+                  <img class="img-responsive" alt="Barista Pouring Lattes | Photo by Tyler Nix on Unsplash" src="/images/pouring_lattes.jpg" style="width:100%; height:250px; object-fit:cover; opacity:0.8; margin-top:-1.2%;">
                 </div>
             </div>
-        </div>    
+        </div>
     </body>
 </html>

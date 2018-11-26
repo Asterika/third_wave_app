@@ -6,7 +6,7 @@
 
 <div class="main">
   <div class="form-container">
-    <img src="/images/shiny_silver_espresso_machine.jpg" class="sidebar">
+    <img src="/images/shiny_silver_espresso_machine.jpg" class="sidebar" alt="Machine Pouring Espresso Shot | Photo by Tyler Nix on Unsplash">
         <div class="form-box" style="margin-bottom: 1em;">
           {{ csrf_field() }}
 
@@ -30,7 +30,7 @@
 
               <div>
 
-                <button type="submit" class="button">Return to Shops Gallery</button>
+                <button type="submit" class="button is-link is-outlined is-focused">Return to Shops Gallery</button>
 
               </div>
 
