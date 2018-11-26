@@ -40,7 +40,7 @@ Route::get('/locate', 'PagesController@locate');
 
 Route::resource('shops', 'ShopsController');
 
-Auth::routes();
+// Auth::routes();
 
 // Route::get('/shops/{shop}/edit', 'HomeController@index')->name('/shops/{shop}/edit')->middleware('auth');
 
