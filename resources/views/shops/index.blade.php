@@ -14,14 +14,14 @@
           @foreach ($shops as $shop)
           <li>
             <a href="/shops/{{$shop->id}}">{{ $shop->name_location }}</a>
-            <a href="/shops/{{$shop->id}}/edit"><img src="/images/edit_pencil.png" style="height:12px; width:12px;"></a>
-            <a href="/shops/{{$shop->id}}/delete"><img src="/images/recycle-bin.png" style="height:12px; width:12px;"></a>
+            <a href="/shops/{{$shop->id}}/edit"><img src="/images/edit_saturated.png" style="height:12px; width:12px;"></a>
+            <a href="/shops/{{$shop->id}}/delete"><img src="/images/delete.png" style="height:12px; width:12px;"></a>
 
           </li>
           @endforeach
         </ul><br >
 
-        <a class="button is-link" href="/shops/create">Add a Shop</a>
+        <a class="button is-link is-outlined is-focused" href="/shops/create">Add a Shop</a>
 
       </div>
 

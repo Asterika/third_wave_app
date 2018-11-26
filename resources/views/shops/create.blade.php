@@ -24,8 +24,11 @@
               </div><br ><br >
 
               <div>
-                <button type="submit" class="button is-link">Add Shop</button>
-              </div>
+                <button type="submit" class="button is-link is-outlined is-focused">Add Shop</button>
+              </div><br >
+              <div>
+                <a href="/shops" class="button is-link is-outlined is-focused">Return to Shops Gallery</a>
+              </div>  
 
             @if ($errors->any())
 
