@@ -23,7 +23,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
-              
+                <!-- this is the app name on the login and register forms -->
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ 'Third Wave Coffee' }}
                 </a>

@@ -4,14 +4,13 @@
 
   <h1 class="title-small">Edit Shop Profile</h1><br >
 
-  <div 
-
-  <!-- <div class='container' align='center'> -->
+  <div class='container' align='center'>
 
   <div class="main">
     <div class="form-container">
       <img src="/images/coffee_pot_and_beans.jpg" class="sidebar" alt="Silver Coffee Pot with Coffee Beans | Photo by Alexandra Gorn on Unsplash">
-          <form method="POST" action="/shops/{{ $shop->id }}" class="form-box" style="margin-bottom: 1em;">
+          <br >
+          <form method="POST" action="/shops/{{ $shop->id }}" class="form-box" style="margin-bottom: 1em; padding-top: 4%;">
             @method('PATCH')
             @csrf
 
@@ -21,7 +20,7 @@
 
               <div style="display:inline;" class="control">
                 <input type="text" name="name_location" placeholder="{{ $shop->name_location }}" value="{{ $shop->name_location }}">
-              </div><br ><br >
+              </div><br ><br ><br >
 
 
               <label class="label" style="display:inline;" for="address1">Location:&#160;&#160;</label>
@@ -40,7 +39,7 @@
 
               <div class="control" style="display:inline;">
                 <input type="text" name="phone1" placeholder="{{ $shop->phone1 }}" value="{{ $shop->phone1 }}">
-              </div><br ><br >
+              </div><br ><br ><br >
 
 
               <label class="label" style="display:inline;" for="address2">Second Location:&#160;&#160;</label>
@@ -59,7 +58,7 @@
 
               <div class="control" style="display:inline;">
                 <input type="text" name="phone2" placeholder="{{ $shop->phone2 }}" value="{{ $shop->phone2 }}">
-              </div><br ><br >
+              </div><br ><br ><br >
 
 
               <label class="label" style="display:inline;" for="website">Website:&#160;&#160;</label>
@@ -73,13 +72,13 @@
 
               <div class="control" style="display:inline;">
                 <input type="text" name="favorite_drink" placeholder="{{ $shop->favorite_drink }}" value="{{ $shop->favorite_drink }}">
-              </div><br ><br >
+              </div><br ><br ><br >
 
                 <div class="field">
 
                   <div>
 
-                    <button type="submit" class="button is-link">Update Shop Profile</button>
+                    <button type="submit" class="button is-link is-outlined">Update Shop Profile</button>
 
                   </div>
 
@@ -94,7 +93,7 @@
 
                   <div>
 
-                    <button type="submit" class="button">Return to Shops Gallery</button>
+                    <button type="submit" class="button is-link is-outlined">Return to Shops Gallery</button>
 
                   </div>
 

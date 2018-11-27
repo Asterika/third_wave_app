@@ -2,10 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-@viewport{
+/* @viewport{
     zoom: 1.0;
     width: extend-to-zoom;
-}
+} */
 
 /*
 .tile {
@@ -38,7 +38,8 @@
 
 .form-container {
   border: 1px solid #ccc;
-  height: 47.75vw;
+  /* height: 47.75vw; */
+  height: 70vw;
   margin: 0 auto;
   text-align: center;
   width: 80%;
@@ -55,7 +56,7 @@
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
   border-right: 2px solid #ccc;
-  max-height: 120%;
+  height: 100%;
   object-fit: fill;
   object-position: center;
   repeat: no-repeat;
@@ -68,9 +69,9 @@
   margin: 0 auto;
   margin-bottom: 20px;
   margin-left: 40%;
-  margin-top: -60%;
+  margin-top: -90%;
   padding: 20px 15px 15px 20px;
-  height: 50vw;
+  height: 70%;
   width: 60%;
 }
 

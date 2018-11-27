@@ -8,7 +8,7 @@
       <div class="form-container">
         <img src="/images/coffee_shop.jpg" class="sidebar" alt="Single Latte at Coffee Bar | Photo by Nathan Dumlao on Unsplash">
 
-      <div class="form-box">
+      <div class="form-box"><br >
         <!-- loop through the shops and display each name and location as a list item -->
         <ul style="list-style-type:none;">
           @foreach ($shops as $shop)

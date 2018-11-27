@@ -25,6 +25,7 @@ class RegisterController extends Controller
 
     /**
      * Where to redirect users after registration.
+     * Redirect users to the index page of app upon registration
      *
      * @var string
      */

@@ -66,10 +66,11 @@
 
             .links > a {
                 color: #636b6f;
-                padding: 0 5%;
+                padding: 0 5.5%;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
+                margin-left: 1%;
                 text-decoration: none;
                 text-transform: uppercase;
             }
@@ -125,6 +126,7 @@
                     <a href="/brew">Brew</a>
                     <a href="/locate">Locate</a>
                     <a href="/shops">Shops</a>
+                    <!-- <a href="{{ url('/logout') }}">Logout</a> -->
                 </div><br ><hr >
 
                 <div>

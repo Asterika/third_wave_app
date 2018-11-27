@@ -11,7 +11,7 @@
               {{ csrf_field() }}
 
               <div>
-                <br >
+                <br ><br >
                 <input type="text" name="name_location" placeholder="Shop Name and State" value="{{ old('name_location') }}"><br ><br ><br >
                 <input type="text" name="address1" placeholder="Address" value="{{ old('address1') }}">
                 <input type="text" name="hours1" placeholder="Shop hours" value="{{ old('hours1') }}">
@@ -28,7 +28,7 @@
               </div><br >
               <div>
                 <a href="/shops" class="button is-link is-outlined is-focused">Return to Shops Gallery</a>
-              </div>  
+              </div>
 
             @if ($errors->any())
 

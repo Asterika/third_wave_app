@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Third Wave Coffee</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <!-- Fonts -->
@@ -22,7 +22,8 @@
           color: #586064;
           /* font-family: 'Nunito', sans-serif; */
           font-family: 'Inconsolata', monospace;
-          font-weight: 200;
+          font-size: 0.95rem;
+          font-weight: 50;
           height: 100vh;
           margin: 0;
           text-align: center;
@@ -106,7 +107,7 @@
 
       <hr >
     <div class="content">
-      <div class="links" style="margin-bottom:-5.5%;">
+      <div class="links" style="margin-bottom:-5%;">
           <a href="/">Home <img src="/images/home.png" style="height:12px; width:12px;"></a>
           <a href="/about">What is Third Wave? <img src="/images/question.png" style="height:12px; width:12px;"></a>
           <a href="/lingo">Lingo <img src="/images/speech-bubble.png" style="height:12px; width:12px;"></a>
