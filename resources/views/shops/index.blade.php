@@ -14,14 +14,21 @@
           @foreach ($shops as $shop)
           <li>
             <a href="/shops/{{$shop->id}}">{{ $shop->name_location }}</a>
-            <a href="/shops/{{$shop->id}}/edit"><img src="/images/edit_saturated.png" style="height:12px; width:12px;"></a>
-            <a href="/shops/{{$shop->id}}/delete"><img src="/images/delete.png" style="height:12px; width:12px;"></a>
+            <!-- add if -->
+            @if(Auth::check())
+              <a href="/shops/{{$shop->id}}/edit"><img src="/images/edit_saturated.png" style="height:12px; width:12px;"></a>
+            @endif
+            @if(Auth::check())
+              <a href="/shops/{{$shop->id}}/delete"><img src="/images/delete.png" style="height:12px; width:12px;"></a>
+            @endif
 
           </li>
           @endforeach
         </ul><br >
 
-        <a class="button is-link is-outlined is-focused" href="/shops/create">Add a Shop</a>
+        @if(Auth::check())
+          <a class="button is-link is-outlined is-focused" href="/shops/create">Add a Shop</a>
+        @endif
 
       </div>
 

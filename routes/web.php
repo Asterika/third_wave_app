@@ -44,22 +44,22 @@ Route::get('/locate', 'PagesController@locate');
 //          ROUTES FOR CRUD PAGES
 //===========================================
 Route::resource('shops', 'ShopsController');
-Route::group(['middleware' => ['auth']], function() {
-Route::resource('shops/create', 'ShopsController');
-Route::resource('shops/{shop}/edit', 'ShopsController');
-Route::resource('shops/create', 'ShopsController');
-Route::resource('shops/{shop}/delete', 'ShopsController');
-});
 
 //===========================================
 //             ROUTES FOR AUTH
 //===========================================
 Auth::routes();
 
+// Route::group(['middleware' => ['auth']], function() {
+// Route::resource('shops/create', 'ShopsController');
+// Route::resource('shops/{shop}/edit', 'ShopsController');
+// Route::resource('shops/{shop}/delete', 'ShopsController');
+// });
+
 // Route::get('/shops/{shop}/edit', 'HomeController@index')->name('/shops/{shop}/edit')->middleware('auth');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+// Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 // Route::get('/register', 'HomeController@index')->name('home')->middleware('guest');
