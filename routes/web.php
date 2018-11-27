@@ -54,4 +54,6 @@ Route::get('/shops/{shop}/edit', 'HomeController@index')->name('/shops/{shop}/ed
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
 // Route::get('/register', 'HomeController@index')->name('home')->middleware('guest');

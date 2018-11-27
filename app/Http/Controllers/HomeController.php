@@ -21,8 +21,18 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    // this function returns a logged-in user back to the dashboard once they click the home button
     public function index()
     {
         return view('home');
     }
+
+    public function logout () {
+    //logout user
+    auth()->logout();
+    // redirect to homepage
+    return redirect('/');
+    }
+
 }

@@ -84,7 +84,6 @@
         </style>
     </head>
     <body>
-      <!-- <div style="min-width: 800px; margin: 0 auto;"> -->
       <!-- <div class="flex-center position-ref full-height">
           @if (Route::has('login'))
               <div class="top-right links">
@@ -132,6 +131,5 @@
                   <img class="img-responsive" alt="Barista Pouring Lattes | Photo by Tyler Nix on Unsplash" src="/images/pouring_lattes.jpg" style="width:100%; height:250px; object-fit:cover; opacity:0.8; margin-top:-1.2%;">
                 </div>
             </div>
-        <!-- </div> -->
     </body>
 </html>
