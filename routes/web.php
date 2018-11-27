@@ -31,17 +31,27 @@ DELETE /shops/1 (destroy)
 //create routes for each "page" within a PagesController
 // have post request direct create route to store shops info
 
-//Routes for main pages
+//===========================================
+//          ROUTES FOR MAIN PAGES
+//===========================================
 Route::get('/', 'PagesController@home');
 Route::get('/about', 'PagesController@about');
 Route::get('/lingo', 'PagesController@lingo');
 Route::get('/brew', 'PagesController@brew');
 Route::get('/locate', 'PagesController@locate');
 
+//===========================================
+//          ROUTES FOR CRUD PAGES
+//===========================================
 Route::resource('shops', 'ShopsController');
 
-// Auth::routes();
+//===========================================
+//             ROUTES FOR AUTH
+//===========================================
+Auth::routes();
 
-// Route::get('/shops/{shop}/edit', 'HomeController@index')->name('/shops/{shop}/edit')->middleware('auth');
+Route::get('/shops/{shop}/edit', 'HomeController@index')->name('/shops/{shop}/edit')->middleware('auth');
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 // Route::get('/register', 'HomeController@index')->name('home')->middleware('guest');
