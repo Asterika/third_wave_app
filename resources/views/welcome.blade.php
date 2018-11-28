@@ -67,12 +67,13 @@
 
             .links > a {
                 /* color: #63AF86; */
-                align: center;
+                /* align: center; */
                 color: #636b6f;
                 padding: 0 5%;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
+                margin: 0 auto;
                 /* margin-left: 1.5%; */
                 text-decoration: none;
                 text-transform: uppercase;
