@@ -4,7 +4,7 @@
 
     <h1 class="title-small">Shops</h1>
 
-    <div class="main">
+    <!-- <div class="main"> -->
       <div class="form-container">
         <img src="/images/coffee_shop.jpg" class="sidebar" alt="Single Latte at Coffee Bar | Photo by Nathan Dumlao on Unsplash">
 
@@ -32,7 +32,8 @@
         @endif
 
       </div>
+    </div>  
 
-    </div>
+    <!-- </div> -->
 
 @endsection

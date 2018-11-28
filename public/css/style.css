@@ -110,15 +110,17 @@ input[type="submit"]:active {
 .form-box {
   border: 3px solid grey;
   font-size: 1rem;
-  /* height: 60vh; */
+  height: 100%;
   /* margin: 0 auto; */
   /* margin-bottom: 20px;
   /* margin-left: 33%; */
   /* margin-top: -90%; */
   /* margin-left: 29%; */
+  margin-bottom: 1em;
   overflow: scroll;
   padding: 1%;
-  /* width: 100%; */
+  padding-top: 1%;
+  width: 100%;
 
 }
 

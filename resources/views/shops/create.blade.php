@@ -4,10 +4,11 @@
 
     <h1 class="title-small">Add Your Favorite Third Wave Coffee Shop to Our Gallery</h1><br >
 
-    <div class="main">
+    <!-- <div class="main"> -->
       <div class="form-container">
         <img src="/images/coffee_brewing_tower.jpg" class="sidebar" alt="Drip Coffee Brewing Tower | Photo by Nathan Dumlao on Unsplash">
-            <form method="POST" action="/shops" class="form-box" style="margin-bottom: 1em;">
+          <div class="form-box">
+            <form method="POST" action="/shops">
               {{ csrf_field() }}
 
               <div>
@@ -46,7 +47,8 @@
             @endif
 
           </form>
-        </div>
-    </div>
+        <div>
+      </div>
+    <!-- </div> -->
 
 @endsection

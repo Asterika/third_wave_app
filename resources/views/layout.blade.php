@@ -8,7 +8,7 @@
 
     <!-- Link Stylesheet -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@
 
     <!-- Optimize for various screen sizes -->
     <!-- <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css"> -->
-    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css"> -->
 
   </head>
   <!-- Styles -->
