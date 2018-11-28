@@ -11,9 +11,6 @@
       <img src="/images/brewing_coffee.jpg" class="sidebar" alt="Brewing Coffee | Photo by Najib Khalil on Unsplash">
 
       <div class="form-box"><br >
-        <!-- &emsp;&emsp;<img src="/images/espresso.jpg" style="height:50px; width:50px; border-radius:40px;">&emsp;&emsp;&emsp;
-        <img src="/images/macchiato.jpg" style="height:50px; width:50px; border-radius:40px;">&emsp;&emsp;&emsp;
-        <img src="/images/gibraltar_cortado.jpg" style="height:50px; width:50px; border-radius:40px;">&emsp;&emsp;&emsp; -->
         <img src="/images/v60-pour-over.jpg" style="height:40px; width:40px; align:center; border:1px solid gray;">&emsp;&emsp;&emsp;
         <img src="/images/kalita.jpg" style="height:40px; width:40px; align:center; border:1px solid gray;">&emsp;&emsp;&emsp;
         <img src="/images/chemex.jpg" style="height:40px; width:40px; align:center; border:1px solid gray;"><br ><br >
