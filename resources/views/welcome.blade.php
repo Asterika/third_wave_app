@@ -73,8 +73,8 @@
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
-                padding-left: 5%;
-                padding-top: 0.5%;
+                /* padding-left: 5%;
+                padding-top: 0.5%; */
                 /* margin-left: 1.5%; */
                 text-decoration: none;
                 text-transform: uppercase;
