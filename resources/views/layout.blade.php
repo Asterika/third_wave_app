@@ -4,14 +4,19 @@
   <head>
     <meta charset="utf-8">
     <title>Third Wave Coffee</title>
+    <meta name="viewport" content="initial-scale=1">
+
+    <!-- Link Stylesheet -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+
     <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+
     <!-- Optimize for various screen sizes -->
     <!-- <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css"> -->
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
-    <meta name="viewport" content="initial-scale=1">
 
   </head>
   <!-- Styles -->
@@ -20,13 +25,22 @@
           background-color: #fff;
           /* color: #636b6f; */
           color: #586064;
-          /* font-family: 'Nunito', sans-serif; */
           font-family: 'Inconsolata', monospace;
-          font-size: 0.95rem;
-          font-weight: 50;
+          /* font-size: 1.4rem; */
+          font-weight: 200;
           height: 100vh;
           margin: 0;
           text-align: center;
+      }
+
+      .links > a {
+          color: #636b6f;
+          padding: 0 3%;
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: .1rem;
+          text-decoration: none;
+          text-transform: uppercase;
       }
 
       .full-height {
@@ -39,20 +53,16 @@
           justify-content: center;
       }
 
-      .form {
-
-      }
-
       hr {
       display: block;
       height: 1px;
       border: 0;
       border-top: 1px solid #ccc;
-      margin: 1em 0;
+      margin: 0.5em 0;
       padding: 0;
       }
 
-      .position-ref {
+      /* .position-ref {
           position: relative;
       }
 
@@ -64,12 +74,12 @@
 
       .content {
           text-align: center;
-      }
+      } */
 /*
       #rotate-text {
         transform: rotate(5deg);
       } */
-
+/*
       .title {
           font-size: 2.6rem;
       }
@@ -93,12 +103,10 @@
       }
       a {
         /* color: #3B8282; */
-        color: #586064;
-      }
 
+/*
       .m-b-md {
-          margin-bottom: 30px;
-      }
+          margin-bottom: 30px; */
   </style>
 
   <body>
@@ -109,18 +117,7 @@
         <a href="/login">Login</a>
       </div> -->
 
-      <hr >
-      @include('partials.navigation')
-    <div class="content">
-      <div class="links">
-          <a href="/">Home <img src="/images/home.png" style="height:12px; width:12px;"></a>
-          <a href="/about">What is Third Wave? <img src="/images/question.png" style="height:12px; width:12px;"></a>
-          <a href="/lingo">Lingo <img src="/images/speech-bubble.png" style="height:12px; width:12px;"></a>
-          <a href="/brew">Brew <img src="/images/brewpot_light.png" style="height:13px; width:13px;"></a>
-          <a href="/shops">Shops <img src="/images/coffee-cup.png" style="height:12px; width:12px;"></a>
-          <a href="/locate">Locate <img src="/images/placeholder (1).png" style="height:12px; width:12px;"></a>
-      </div>
-    </div><br ><hr >
+      @include('partials.innernavigation')
 
     <div class="container">
       @yield('content')

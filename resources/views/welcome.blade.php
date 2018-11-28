@@ -8,9 +8,12 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+
+        <!-- Link Stylesheet -->
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
-    
+
     <body>
             <div class="content">
               @if (Route::has('login'))
