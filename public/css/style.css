@@ -2,6 +2,159 @@
 
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
+/* ================================== */
+          /* GLOBAL STYLES */
+/* ================================== */
+* {
+  box-sizing: border-box;
+}
+
+br {
+  line-height: 1.5em;
+}
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    /* font-size: 1.5rem; */
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+/* LINKS */
+.links > a {
+    color: #636b6f;
+    padding: 0 5%;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    /* padding-left: 5%;
+    padding-top: 0.5%; */
+    /* margin-left: 1.5%; */
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover {
+  color: #63AF86;
+}
+input[type="submit"]:active {
+    color: #4286f4;
+}
+
+/* TITLES */
+.title {
+    font-size: 2.6rem;
+}
+.title-small {
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+/* ================================== */
+          /* LANDING PAGE */
+/* ================================== */
+/* AUTH NAV */
+.content {
+    text-align: center;
+}
+/* .top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+} */
+
+/* NAV */
+#nav {
+  background-color: ghostwhite;
+  height: 12%;
+  opacity: 0.6;
+  padding-left: 15%;
+  padding-top: 2%;
+  position: fixed;
+  width:100%;
+  z-index: 1;
+}
+
+/* IMAGE */
+.img-responsive {
+  height:36%;
+  object-fit:cover;
+  opacity:0.8;
+  width:100%;
+}
+
+/* ================================== */
+          /* FORM STYLING */
+/* ================================== */
+
+/* .container {
+  height:80vw;
+  width:80vw;
+  position: relative;
+} */
+.form-box {
+  height: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-left: 40%;
+  margin-top: -90%;
+  padding: 20px 15px 15px 20px;
+  width: 60%;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  /* height: 47.75vw; */
+  height: 70vw;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.main {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  background-color: rgb(242,242,245);
+  border-bottom-right-radius: 0px;
+  border-right: 2px solid #ccc;
+  border-top-right-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 40%;
+  object-fit: fill;
+  object-position: center;
+  repeat: no-repeat;
+}
+
+
+/* ================================== */
+/* @viewport {
+  width: device-width;
+  zoom: 1.0 ;
+} */
+
+/* @media only screen
+ and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (-webkit-min-device-pixel-ratio: 2)
+ and (orientation: portrait) {
+   .content {
+     display: block;
+     width: 100%;
+   }
+   li {
+     display: block;
+   }
+} */
+
 /* @viewport{
     zoom: 1.0;
     width: extend-to-zoom;
@@ -24,91 +177,4 @@
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
-} */
-
-* {
-  box-sizing: border-box;
-}
-
-/* .container {
-  height:80vw;
-  width:80vw;
-  position: relative;
-} */
-
-.form-container {
-  border: 1px solid #ccc;
-  /* height: 47.75vw; */
-  height: 70vw;
-  margin: 0 auto;
-  text-align: center;
-  width: 80%;
-}
-
-.main {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-
-#nav {
-  background-color: ghostwhite;
-  height: 12%;
-  opacity: 0.6;
-  padding-left: 5%;
-  padding-top: 2.5%;
-  position: fixed;
-  width:100%;
-  z-index: 1;
-}
-
-.sidebar {
-  background-color: rgb(242,242,245);
-  border-bottom-right-radius: 0px;
-  border-top-right-radius: 0px;
-  border-right: 2px solid #ccc;
-  height: 100%;
-  object-fit: fill;
-  object-position: center;
-  repeat: no-repeat;
-  max-width: 40%;
-  display: flex;
-  flex-direction: column;
-}
-
-.form-box {
-  margin: 0 auto;
-  margin-bottom: 20px;
-  margin-left: 40%;
-  margin-top: -90%;
-  padding: 20px 15px 15px 20px;
-  height: 70%;
-  width: 60%;
-}
-
-input[type="submit"]:active {
-    color: #4286f4;
-}
-
-br {
-  line-height: 1.5em;
-}
-
-/* @viewport {
-  width: device-width;
-  zoom: 1.0 ;
-} */
-
-/* @media only screen
- and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (-webkit-min-device-pixel-ratio: 2)
- and (orientation: portrait) {
-   .content {
-     display: block;
-     width: 100%;
-   }
-   li {
-     display: block;
-   }
 } */
