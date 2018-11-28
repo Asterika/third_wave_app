@@ -112,7 +112,7 @@
       <hr >
       @include('partials.navigation')
     <div class="content">
-      <div class="links" style="margin-bottom:-5%;">
+      <div class="links">
           <a href="/">Home <img src="/images/home.png" style="height:12px; width:12px;"></a>
           <a href="/about">What is Third Wave? <img src="/images/question.png" style="height:12px; width:12px;"></a>
           <a href="/lingo">Lingo <img src="/images/speech-bubble.png" style="height:12px; width:12px;"></a>

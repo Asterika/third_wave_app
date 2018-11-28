@@ -7,14 +7,15 @@
         <title>Third Wave</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <style>
             html, body {
                 background-color: #fff;
                 color: #636b6f;
-                font-family: 'Ubuntu', sans-serif;
+                font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -31,11 +32,11 @@
             }
 
             hr {
-            display: block;
-            height: 1px;
+            /* display: block; */
+            /* height: 1px; */
             border: 0;
-            border-top: 1px solid #ccc;
-            margin: 0.65em 0;
+            /* border-top: 1px solid #ccc; */
+            /* margin: 0.65em 0; */
             padding: 0;
             }
 
@@ -65,18 +66,20 @@
             }
 
             .links > a {
+                /* color: #63AF86; */
                 color: #636b6f;
-                padding: 0 5.5%;
+                padding: 0 5%;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
-                margin-left: 1%;
+                margin-left: 1.5%;
                 text-decoration: none;
                 text-transform: uppercase;
             }
 
             a:hover {
-              color: #4286f4;
+              /* color: #4286f4; */
+              color: #63AF86;
             }
 
             .m-b-md {
@@ -120,18 +123,22 @@
                     Third Wave <div class="title-small" style="display:inline; text-align: center;">Coffee</div>
                 </div>
 
-              <div class="nav"><hr >
-                <div class="links" style="margin-top:1.5%; margin-bottom:2%;">
+              <div id="nav">
+                <div class="links">
+                  <!-- style="margin-top:1.5%; margin-bottom:2%; -->
                     <a href="/about">What is Third Wave?</a>
                     <a href="/lingo">Lingo</a>
                     <a href="/brew">Brew</a>
                     <a href="/locate">Locate</a>
                     <a href="/shops">Shops</a>
-                </div><hr >
+                </div>
               </div>
 
                 <div>
-                  <img class="img-responsive" alt="Barista Pouring Lattes | Photo by Tyler Nix on Unsplash" src="/images/pouring_lattes.jpg" style="width:100%; height:250px; object-fit:cover; opacity:0.8; margin-top:-1.2%;">
+                  <img class="img-responsive" alt="Barista Pouring Lattes | Photo by Tyler Nix on Unsplash" src="/images/pouring_lattes.jpg"
+                   style="width:100%; height:330px; object-fit:cover; opacity:0.8;">
+
+                    <!-- margin-top:-1.2%; -->
                 </div>
             </div>
     </body>
