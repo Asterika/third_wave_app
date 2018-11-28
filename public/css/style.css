@@ -17,8 +17,8 @@ html, body {
     background-color: #fff;
     color: #636b6f;
     font-family: 'Nunito', sans-serif;
-    font-size: 1.7rem;
-    font-weight: 200;
+    /* font-size: 1.7rem; */
+    font-weight: 300;
     height: 100vh;
     margin: 0;
 }
