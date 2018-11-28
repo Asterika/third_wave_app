@@ -14,6 +14,31 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
 
+    <!-- Styles -->
+    <style>
+      html, body {
+          background-color: #fff;
+          color: #636b6f;
+          font-family: 'Nunito', sans-serif;
+          font-weight: 200;
+          height: 100vh;
+          margin: 0;
+          text-align:center;
+      }
+      .links > a {
+          color: #636b6f;
+          padding: 0 5%;
+          font-size: 13px;
+          font-weight: 600;
+          letter-spacing: .1rem;
+          text-decoration: none;
+          text-transform: uppercase;
+      }
+      a:hover {
+        color: #63AF86;
+      }
+    </style>
+
     <body>
             <div class="content">
               @if (Route::has('login'))
@@ -35,16 +60,7 @@
                     Third Wave <div class="title-small" style="display:inline; text-align:center;">Coffee</div>
                 </div>
 
-              <div id="nav">
-                <div class="links">
-                  <!-- style="margin-top:1.5%; margin-bottom:2%; -->
-                    <a href="/about">What is Third Wave?</a>
-                    <a href="/lingo">Lingo</a>
-                    <a href="/brew">Brew</a>
-                    <a href="/locate">Locate</a>
-                    <a href="/shops">Shops</a>
-                </div>
-              </div>
+                @include('partials.landingpagenavigation')
 
                 <div>
                   <img class="img-responsive" alt="Barista Pouring Lattes | Photo by Tyler Nix on Unsplash" src="/images/pouring_lattes.jpg">

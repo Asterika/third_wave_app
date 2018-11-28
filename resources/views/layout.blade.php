@@ -26,7 +26,7 @@
           /* color: #636b6f; */
           color: #586064;
           font-family: 'Inconsolata', monospace;
-          /* font-size: 1.4rem; */
+          font-size: 1.4rem;
           font-weight: 200;
           height: 100vh;
           margin: 0;
