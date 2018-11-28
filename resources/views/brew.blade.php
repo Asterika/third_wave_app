@@ -10,7 +10,7 @@
     <div class="form-container">
       <img src="/images/brewing_coffee.jpg" class="sidebar" alt="Brewing Coffee | Photo by Najib Khalil on Unsplash">
 
-      <div class="form-box"><br >
+      <div class="form-box" style="overflow:scroll;"><br >
         <img src="/images/v60-pour-over.jpg" alt="v60 Pour Over Coffee | Photo by Mike Marquez on Unsplash" style="height:40px; width:40px; align:center; border:1px solid gray;">&emsp;&emsp;&emsp;
         <img src="/images/kalita.jpg" alt="Kalita Pour Over Coffee | Photo by Nathan Dumlao on Unsplash" style="height:40px; width:40px; align:center; border:1px solid gray;">&emsp;&emsp;&emsp;
         <img src="/images/chemex.jpg" alt="Chemex Coffee | Photo by Devin Avery on Unsplash" style="height:40px; width:40px; align:center; border:1px solid gray;"><br ><br >
