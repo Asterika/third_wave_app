@@ -42,11 +42,11 @@
             <li>Quality: Full-bodied, fast, and flavorful cup</li>
           </ul><br >
 
-        <strong>French Press:</strong> Heavy bodied, wire filter
+        <strong>French Press:</strong> Wire filter press within a cylindrical body
           <ul>
             <li>Timing: ~4 minutes
             <li>Quantity: Multiple cups with minimal effort (24+ ounces)</li>
-            <li>Quality: </li>
+            <li>Quality: Full-bodied cup with considerable sediment</li>
           </ul><br >
       </div>
     </div>
