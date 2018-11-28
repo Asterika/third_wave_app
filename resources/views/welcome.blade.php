@@ -118,18 +118,17 @@
               </div>
                 <div class="title" style="text-align:center;">
                     Third Wave <div class="title-small" style="display:inline; text-align: center;">Coffee</div>
-                </div><hr >
+                </div>
 
-              <nav class="navbar navbar-default navbar-fixed-top"
-                <div class="links" style="margin-top:2.5%; margin-bottom:-1.5%;">
+              <div class="nav"><hr >
+                <div class="links" style="margin-top:1.5%; margin-bottom:2%;">
                     <a href="/about">What is Third Wave?</a>
                     <a href="/lingo">Lingo</a>
                     <a href="/brew">Brew</a>
                     <a href="/locate">Locate</a>
                     <a href="/shops">Shops</a>
-                    <!-- <a href="{{ url('/logout') }}">Logout</a> -->
-                </div>
-              </nav><br ><hr >
+                </div><hr >
+              </div>
 
                 <div>
                   <img class="img-responsive" alt="Barista Pouring Lattes | Photo by Tyler Nix on Unsplash" src="/images/pouring_lattes.jpg" style="width:100%; height:250px; object-fit:cover; opacity:0.8; margin-top:-1.2%;">
