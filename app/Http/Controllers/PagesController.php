@@ -33,10 +33,10 @@ class PagesController extends Controller
       return view ('locate');
     }
 
-    public function shops()
-    {
-      return view ('shops');
-    }
+    // public function shops()
+    // {
+    //   return view ('shops');
+    // }
 
 
 }
