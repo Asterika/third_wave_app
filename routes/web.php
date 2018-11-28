@@ -43,7 +43,7 @@ Route::get('/locate', 'PagesController@locate');
 //===========================================
 //          ROUTES FOR CRUD PAGES
 //===========================================
-Route::resource('shops', 'ShopsController');
+Route::resource('/shops', 'ShopsController');
 
 //===========================================
 //             ROUTES FOR AUTH
