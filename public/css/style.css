@@ -5,6 +5,9 @@
 /* ================================== */
           /* GLOBAL STYLES */
 /* ================================== */
+/* :root {
+  --link-green:#63AF86; */
+
 * {
   box-sizing: border-box;
 }
@@ -25,7 +28,8 @@ html, body {
 
 /* LINKS */
 .links > a {
-    color: #636b6f;
+    /* color: #636b6f; */
+    color: #63AF86;
     padding: 0 5%;
     font-size: 13px;
     font-weight: 600;
@@ -40,7 +44,15 @@ a:hover {
   color: #63AF86;
 }
 input[type="submit"]:active {
-    color: #4286f4;
+    /* color: #4286f4; */
+    color: #63AF86;
+}
+.none {
+  letter-spacing: none;
+  list-style-type: none;
+  margin: none;
+  padding: none;
+  text-decoration: none;
 }
 
 /* TITLES */
@@ -105,6 +117,7 @@ input[type="submit"]:active {
   /* margin-top: -90%; */
   /* margin-left: 29%; */
   overflow: scroll;
+  padding: 1%;
   /* width: 100%; */
 
 }

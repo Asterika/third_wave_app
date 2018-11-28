@@ -11,9 +11,9 @@
       <img src="/images/brewing_coffee.jpg" class="sidebar" alt="Brewing Coffee | Photo by Najib Khalil on Unsplash">
 
       <div class="form-box"><br >
-        <!-- <img src="/images/v60-pour-over.jpg" alt="v60 Pour Over Coffee | Photo by Mike Marquez on Unsplash" class="icons-brew">&emsp;&emsp;&emsp;
-        <img src="/images/kalita.jpg" alt="Kalita Pour Over Coffee | Photo by Nathan Dumlao on Unsplash" class="icons-brew">&emsp;&emsp;&emsp;
-        <img src="/images/chemex.jpg" alt="Chemex Coffee | Photo by Devin Avery on Unsplash" class="icons-brew"><br > -->
+        <img src="/images/v60-pour-over.jpg" alt="v60 Pour Over Coffee | Photo by Mike Marquez on Unsplash" class="icons-brew">&emsp;
+        <img src="/images/kalita.jpg" alt="Kalita Pour Over Coffee | Photo by Nathan Dumlao on Unsplash" class="icons-brew">&emsp;
+        <img src="/images/chemex.jpg" alt="Chemex Coffee | Photo by Devin Avery on Unsplash" class="icons-brew"><br >
 
         <!-- <div style="overflow:scroll;"> -->
           <strong>v60 Pour Over:</strong> Ceramic or glass triangular piece with single hole in bottom, considerable control over brewing
@@ -34,8 +34,8 @@
               <li>Quality: Results in a clean cup of coffee</li>
             </ul><br >
 
-          <img src="/images/aero-press.jpg" alt="AeroPress Coffee | Photo by Kave Kostolo on Pixabay" class="icons-brew">&emsp;&emsp;&emsp;
-          <img src="/images/french-press.jpg" alt="French Press Coffee | Photo by Sonny Ravesteij on Unsplash" class="icons-brew"><br ><br >
+          <img src="/images/aero-press.jpg" alt="AeroPress Coffee | Photo by Kave Kostolo on Pixabay" class="icons-brew">&emsp;
+          <img src="/images/french-press.jpg" alt="French Press Coffee | Photo by Sonny Ravesteij on Unsplash" class="icons-brew"><br >
 
           <strong>AeroPress:</strong> Portable filter brewing method that uses similar principles of espresso machine (heat and water pressure) on a smaller scale
             <ul>

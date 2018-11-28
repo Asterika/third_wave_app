@@ -8,7 +8,7 @@
 
     <!-- Link Stylesheet -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
@@ -20,7 +20,7 @@
 
   </head>
   <!-- Styles -->
-  <style>
+  <!-- <style>
       html, body {
           background-color: #fff;
           /* color: #636b6f; */
@@ -34,13 +34,18 @@
       }
 
       .links > a {
-          color: #636b6f;
+          /* color: #636b6f; */
+          color: #63AF86;
           padding: 0 3%;
           font-size: 13px;
           font-weight: 600;
           letter-spacing: .1rem;
           text-decoration: none;
           text-transform: uppercase;
+      }
+
+      a:hover {
+        color: #586064;
       }
 
       .full-height {
@@ -107,7 +112,7 @@
 /*
       .m-b-md {
           margin-bottom: 30px; */
-  </style>
+  </style> -->
 
   <body>
 
