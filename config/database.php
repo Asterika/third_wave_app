@@ -1,6 +1,10 @@
 <?php
 
+//define database connection for Heroku
+$DATABASE_URL = parse_url('postgres://ulvildzuqnizfj:71eca3b28ad7a2e75ab66c2fe4d56b5f395c87b7b5893f014aecbcba2e65d287@ec2-50-17-203-51.compute-1.amazonaws.com:5432/d3qu77qneggr5l');
+
 return [
+
 
     /*
     |--------------------------------------------------------------------------
@@ -57,18 +61,31 @@ return [
         ],
 
         'pgsql' => [
-            'driver' => 'pgsql',
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
-            'charset' => 'utf8',
-            'prefix' => '',
-            'prefix_indexes' => true,
-            'schema' => 'public',
-            'sslmode' => 'prefer',
+          'driver' => 'pgsql',
+          'host' => $DATABASE_URL["host"],
+          'port' => $DATABASE_URL["port"],
+          'database' => ltrim($DATABASE_URL["path"], "/"),
+          'username' => $DATABASE_URL["user"],
+          'password' => $DATABASE_URL["pass"],
+          'charset' => 'utf8',
+          'prefix' => '',
+          'schema' => 'public',
+          'sslmode' => 'require',
         ],
+
+        // 'pgsql' => [
+        //     'driver' => 'pgsql',
+        //     'host' => env('DB_HOST', '127.0.0.1'),
+        //     'port' => env('DB_PORT', '5432'),
+        //     'database' => env('DB_DATABASE', 'forge'),
+        //     'username' => env('DB_USERNAME', 'forge'),
+        //     'password' => env('DB_PASSWORD', ''),
+        //     'charset' => 'utf8',
+        //     'prefix' => '',
+        //     'prefix_indexes' => true,
+        //     'schema' => 'public',
+        //     'sslmode' => 'prefer',
+        // ],
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
