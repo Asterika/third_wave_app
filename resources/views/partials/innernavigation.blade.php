@@ -3,7 +3,8 @@
   <div class="links">
     <hr >
       <a href="/">Home
-        <img src="/images/home.png" style="height:12px; width:12px;"></a>
+        <!-- <img src="/images/home.png" style="height:12px; width:12px;"> -->
+      </a>
 
       <a href="/about">What is Third Wave?
         <!-- <img src="/images/question.png" style="height:12px; width:12px;"> -->

@@ -9,7 +9,7 @@
         <img src="/images/coffee_shop.jpg" class="sidebar" alt="Single Latte at Coffee Bar | Photo by Nathan Dumlao on Unsplash">
 
       <div class="form-box">
-        <p>Login to add, edit, or delete a shop profile</p><br >
+        <p><strong>Login to add, edit, or delete a shop profile</strong></p><br >
         <!-- loop through the shops and display each name and location as a list item -->
         <ul class="none">
           @foreach ($shops as $shop)
@@ -32,7 +32,7 @@
         @endif
 
       </div>
-    </div>  
+    </div>
 
     <!-- </div> -->
 

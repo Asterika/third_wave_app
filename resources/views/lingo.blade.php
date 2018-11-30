@@ -16,7 +16,7 @@
         <img src="/images/gibraltar_cortado.jpg" style="height:50px; width:50px; border-radius:40px;">&emsp;&emsp;&emsp;
 
           <ul>
-            <li><em>Espresso:</em> </li>
+            <li><em>Espresso:</em> The base for all espresso drinks. A strong shot of coffee: 2 shots of espresso = approximately 2 ounces. Shots are created by forcing finely ground beans into water at high pressure.</li>
             <li><em>Macchiato:</em> 2 shots espresso + 1 oz. lightly steamed milk (120&#8457;)</li>
             <li><em>Gibraltar/Cortado:</em> Espresso with equal parts lightly steamed milk | Standard: 2 ounces espresso + 2 ounces lightly steamed milk<br > (110&#8457;)</li><br >
 
