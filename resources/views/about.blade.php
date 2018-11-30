@@ -11,10 +11,9 @@
       <img src="/images/coffee_roaster.jpg" class="sidebar" alt="Processing coffee beans">
 
     <div class="form-box"><br >
-      <h2>third wave coffee<h2>
 
       <div>
-        <h3><strong>First Wave Coffee: A quick jolt</strong></h3>
+        <strong>First Wave Coffee: A quick jolt</strong>
         <ul>
           <li>Convenience</li>
           <li>Accessibility</li>
