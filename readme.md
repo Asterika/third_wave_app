@@ -7,7 +7,7 @@ Interested in learning more or finding a cafe near you? [Check out Third Wave Co
 
 ### Technologies Used
 * PHP
-* Laravel
+* Laravel + Valet
 * PostgreSQL
 * Nginx
 * HTML/CSS
