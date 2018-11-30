@@ -5,9 +5,9 @@
 <h1 class="title-small">Shop Snapshot</h1>
 
 <!-- <div class="main" style="border:3px solid lime;"> -->
-  <div class="form-container" style="border:3px solid navy;">
+  <div class="form-container">
     <img src="/images/shiny_silver_espresso_machine.jpg" class="sidebar" alt="Machine Pouring Espresso Shot | Photo by Tyler Nix on Unsplash">
-        <div class="form-box" style="border: 3px solid aqua;">
+        <div class="form-box">
           {{ csrf_field() }}
 
           <!-- get each shop by id and display its profile -->
