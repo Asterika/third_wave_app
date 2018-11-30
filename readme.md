@@ -1,4 +1,3 @@
-# [Third Wave Coffee](http://third-wave-coffee.herokuapp.com/)
 ![third_wave_coffee](https://user-images.githubusercontent.com/40532253/49277804-b6ad7600-f437-11e8-8e6b-7d842d298e48.png)
 
 ## About
