@@ -2,7 +2,7 @@
 
 @section('content')
 
-  <h1 class="title-small">Third Wave Lingo</h1><br >
+  <h1 class="title-small">Lingo</h1><br >
 
   <!-- <div class='container' align='center'> -->
 
