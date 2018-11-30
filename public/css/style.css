@@ -83,7 +83,7 @@ input[type="submit"]:active {
   background-color: ghostwhite;
   height: 12%;
   opacity: 0.6;
-  padding-left: 5%;
+  /* padding-left: 5%; */
   padding-top: 1.5%;
   position: fixed;
   width:100%;
