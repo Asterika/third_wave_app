@@ -1,10 +1,10 @@
 # [Third Wave Coffee](http://third-wave-coffee.herokuapp.com/)
-![Image of Third Wave Coffee](/public/images/third_wave_coffee.png)
+![Image of Third Wave Coffee](/app/public/images/third_wave_coffee.png)
 
 ## About
 Third Wave is a third wave coffee educator and locator app created by Krystal Williams with substantial content contributions by Kaitlin Williams. The aim of this app is to offer an accessible introduction to the language, practices, and purveyors of coffee within the third wave movement.
 
-Interested in learning more or finding a third wave cafe near you? [here](https://third-wave-coffee.herokuapp.com/)!
+Interested in learning more or finding a cafe near you? [Check out Third Wave Coffee here](https://third-wave-coffee.herokuapp.com/)
 
 ### Technologies Used
 * PHP
